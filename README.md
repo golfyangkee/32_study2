@@ -1,5 +1,5 @@
 # 채용합격자의 데이터를 통한 합격 스펙 분석 및 교육과정 제시
-## 기업 규모별 합격자 스펙 분석을 통한 사용자 스펙에 따른 합불 여부 파악 및 불합 시 hrd-net 교육과정 추천
+# - 기업 규모별 합격자 스펙을 통한 사용자 스펙에 따른 합불 여부 파악 및 불합 시 hrd-net 교육과정 추천
 
 ### 기간: 2024.01.18 ~ 2024.02.05
 
@@ -15,8 +15,10 @@
 
 ### 개발환경(S/W) : window 10, pycharm, jupyter notebook
 
-### 사용한 머신러닝: logistic_regression(다항로짓), decision tree, random forest, gradient boosting tree, multinomailNB, catboost
-
+### 사용 머신러닝: logistic_regression(다항로짓), decision tree, random forest, gradient boosting tree, multinomailNB, catboost
+- 이유1 : 정답(기업규모)이 있는 지도학습
+- 이유2 : 분류 모델
+  
 ### 사용 앙상블 모델: 배깅
 - 이유1 : 데이터가 부족해 기존 데이터의 샘플링을 통해 데이터를 늘린 만큼 과적합 위험이 증가
 - 이유2 : 부스팅 방식은 배깅에 비해 정확하나 과적합의 위험성이 증가하므로 배깅 방식을 이용해 앙상블을 진행
