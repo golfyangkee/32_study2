@@ -1,9 +1,11 @@
 # 채용합격자의 데이터를 통한 합격 스펙 분석 및 교육과정 제시
 # - 기업 규모별 합격자 스펙을 통한 사용자 스펙에 따른 합불 여부 파악 및 불합 시 hrd-net 교육과정 추천
 
-### 기간: 2024.01.18 ~ 2024.02.05
+### 기간 
+2024.01.18 ~ 2024.02.05
 
-### 참여 인원: 6명
+### 참여 인원 
+6명
 
 ### 소개
 1. 기업 규모를 대기업, 중견기업, 중소기업, 공기업 으로 분류
@@ -11,11 +13,14 @@
 3. 머신러닝을 통한 합격자 스펙 학습 및 예측
 4. 불합격 판단 시 부족한 스펙에 대한 hrd-net 교육과정 추천
 
-### 기획의도: 희망 기업 규모에 따른 사용자 스펙의 객관적인 판단 및 부족한 점을 보충할 수 있게 하여 안정적인 합격선 도달
+### 기획의도
+희망 기업 규모에 따른 사용자 스펙의 객관적인 판단 및 부족한 점을 보충할 수 있게 하여 안정적인 합격선 도달
 
-### 개발환경(S/W) : window 10, pycharm, jupyter notebook
+### 개발환경(S/W)
+window 10, pycharm, jupyter notebook
 
-### 사용 머신러닝: logistic_regression(다항로짓), decision tree, random forest, gradient boosting tree, multinomailNB, catboost
+### 사용 머신러닝
+logistic_regression(다항로짓), decision tree, random forest, gradient boosting tree, multinomailNB, catboost
 - 이유1 : 정답(기업규모)이 있는 지도학습
 - 이유2 : 분류 모델
   
